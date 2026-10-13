@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Employee API - uploaded and generated files
+employee_api/uploads/*
+employee_api/reports/*
+# Keep the folders themselves in git
+!employee_api/uploads/.gitkeep
+!employee_api/reports/.gitkeep
